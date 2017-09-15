@@ -17,6 +17,22 @@ export const overwrite = prop => (state, action) =>
   Object.assign(state, { [prop]: action.payload });
 
 /**
+ * Given a prop, set the async start flag to true
+ * @param  {String} prop
+ * @return {Reduction}
+ */
+export const asyncStart = prop => state =>
+  Object.assign(state, { async: Object.assign((state.async || {}), { [prop]: true }) });
+
+/**
+ * Given a prop, set the async start flag to false
+ * @param  {String} prop
+ * @return {Reduction}
+ */
+export const asyncEnd = prop => state =>
+  Object.assign(state, { async: Object.assign((state.async || {}), { [prop]: false }) });
+
+/**
  * adds an error to the `errors` list of a piece of state
  * @type {Reduction}
  */
@@ -29,6 +45,14 @@ export const addError = (state, action) =>
  */
 export const clearErrors = state =>
   Object.assign(state, { errors: [] });
+
+/**
+ * given multiple reductions, combine them into a single reduction
+ * @param  {...Reduction} reductions
+ * @return {Reduction}
+ */
+export const compose = (...reductions) => (state, action) =>
+  reductions.reduce((prevState, f) => f(prevState, action), state);
 
 /**
  * Create a reducer with an initial state, and a reduction map (from type to
