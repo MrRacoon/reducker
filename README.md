@@ -35,6 +35,10 @@ const ADD_TODO = 'APP/TODO/ADD'
 const addTodo = action.payload(ADD_TODO);
 ```
 
+## Documentation
 
+You can find documentation for each function [here][docs]
+
+[docs]: https://mrracoon.github.io/reducker/
 [redux]: http://redux.js.org/
 [duck-typing]: https://hackernoon.com/my-journey-toward-a-maintainable-project-structure-for-react-redux-b05dfd999b5
