@@ -1,6 +1,8 @@
 reducker
 ========
 
+[![Build Status](https://travis-ci.org/MrRacoon/reducker.svg?branch=master)](https://travis-ci.org/MrRacoon/reducker)
+
 Utility functions for channeling your inner duck and reducing [redux][redux]
 boilerplate.
 
