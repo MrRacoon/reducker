@@ -59,7 +59,7 @@ export const compose = (...reductions) => (state, action) =>
  * reduction)
  * @param  {State} init
  * @param  {ReductionMap} typeObj
- * @return {Reducer}         [description]
+ * @return {Reducer}
  */
 export const byType = (init, typeObj) => (state = init, action) => {
   if (typeObj[action.type]) {
