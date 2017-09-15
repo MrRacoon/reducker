@@ -46,15 +46,21 @@
     }
   },
   "babel": {
-    "presets": [ "es2015" ],
+    "presets": [
+      "es2015"
+    ],
     "env": {
       "test": {
-        "plugins": [ "istanbul" ]
+        "plugins": [
+          "istanbul"
+        ]
       }
     }
   },
   "nyc": {
-    "require": [ "babel-register" ],
+    "require": [
+      "babel-register"
+    ],
     "sourceMap": false,
     "instrument": false
   }
