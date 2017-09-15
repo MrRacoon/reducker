@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/reduce.js | reducker</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="utilities to reduce redux boilerplate"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="reducker"><meta property="twitter:description" content="utilities to reduce redux boilerplate"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/MrRacoon/reducker"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-error">error</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-noop">noop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-payload">payload</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-thunk">thunk</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addError">addError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asyncEnd">asyncEnd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asyncStart">asyncStart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-byType">byType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-clearErrors">clearErrors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compose">compose</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-merge">merge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-overwrite">overwrite</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/reduce.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
+/**
+ * Given a state and an action, merge the action&apos;s payload into the state.
+ * @param  {State} state
+ * @param  {Action} action
+ * @return {Reduction}
+ */
+export const merge = (state, action) =&gt;
+  Object.assign(state, action.payload);
+
+/**
+ * given a prop, set the action&apos;s payload prop at state.prop
+ * @param  {String} prop
+ * @return {Reduction}
+ */
+export const overwrite = prop =&gt; (state, action) =&gt;
+  Object.assign(state, { [prop]: action.payload });
+
+/**
+ * Given a prop, set the async start flag to true
+ * @param  {String} prop
+ * @return {Reduction}
+ */
+export const asyncStart = prop =&gt; state =&gt;
+  Object.assign(state, { async: Object.assign((state.async || {}), { [prop]: true }) });
+
+/**
+ * Given a prop, set the async start flag to false
+ * @param  {String} prop
+ * @return {Reduction}
+ */
+export const asyncEnd = prop =&gt; state =&gt;
+  Object.assign(state, { async: Object.assign((state.async || {}), { [prop]: false }) });
+
+/**
+ * adds an error to the `errors` list of a piece of state
+ * @type {Reduction}
+ */
+export const addError = (state, action) =&gt;
+  Object.assign(state, { errors: (state.errors || []).concat(action.error) });
+
+/**
+ * resets the `errors` object back to the empty list.
+ * @type {Reduction}
+ */
+export const clearErrors = state =&gt;
+  Object.assign(state, { errors: [] });
+
+/**
+ * given multiple reductions, combine them into a single reduction
+ * @param  {...Reduction} reductions
+ * @return {Reduction}
+ */
+export const compose = (...reductions) =&gt; (state, action) =&gt;
+  reductions.reduce((prevState, f) =&gt; f(prevState, action), state);
+
+/**
+ * Create a reducer with an initial state, and a reduction map (from type to
+ * reduction)
+ * @param  {State} init
+ * @param  {ReductionMap} typeObj
+ * @return {Reducer}         [description]
+ */
+export const byType = (init, typeObj) =&gt; (state = init, action) =&gt; {
+  if (typeObj[action.type]) {
+    return typeObj[action.type](state, action);
+  }
+  return state;
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

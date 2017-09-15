@@ -1,0 +1,17 @@
+{
+  "coverage": "100%",
+  "expectCount": 12,
+  "actualCount": 12,
+  "files": {
+    "src/action.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "src/reduce.js": {
+      "expectCount": 8,
+      "actualCount": 8,
+      "undocumentLines": []
+    }
+  }
+}

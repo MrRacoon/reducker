@@ -1,0 +1,1077 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/action.js",
+    "content": "\n\n/**\n * Don't pass any information, just pass the type to the reducer.\n * @param  {String} type\n * @return {ActionCreator}\n */\nexport const noop = type => () => ({ type });\n\n/**\n * Given a type, create a function that accepts a payload and passes that with\n * the given type.\n * @param  {String} type\n * @return {ActionCreator}\n */\nexport const payload = type => p => ({ type, payload: p });\n\n/**\n * Given a type, return a function that will pass it's argument as an error.\n * @param  {String} type\n * @return {ActionCreator}\n */\nexport const error = type => e => ({ type, error: e });\n\n/**\n * given a type and a promise creator, return an action creator that will accept\n * the arguments to the promise, and on resolve, return a action.payload\n * funciton. On reject return an action.error.\n * @param  {String} type\n * @param  {Promise} prom\n * @return {ActionCreator}\n */\nexport const thunk = (type, prom) => (...args) => (dispatch) => {\n  dispatch(noop(type)());\n  return prom(...args)\n    .then(\n      p => dispatch(payload(`${type}/SUCCESS`)(p)),\n      e => dispatch(error(`${type}/FAILURE`)(e)),\n    );\n};\n",
+    "static": true,
+    "longname": "/home/erik/source/reducker/src/action.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "noop",
+    "memberof": "src/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/action.js~noop",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/action.js",
+    "importStyle": "{noop}",
+    "description": "Don't pass any information, just pass the type to the reducer.",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ActionCreator"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "payload",
+    "memberof": "src/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/action.js~payload",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/action.js",
+    "importStyle": "{payload}",
+    "description": "Given a type, create a function that accepts a payload and passes that with\nthe given type.",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ActionCreator"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "error",
+    "memberof": "src/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/action.js~error",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/action.js",
+    "importStyle": "{error}",
+    "description": "Given a type, return a function that will pass it's argument as an error.",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ActionCreator"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "thunk",
+    "memberof": "src/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/action.js~thunk",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/action.js",
+    "importStyle": "{thunk}",
+    "description": "given a type and a promise creator, return an action creator that will accept\nthe arguments to the promise, and on resolve, return a action.payload\nfunciton. On reject return an action.error.",
+    "lineNumber": 33,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Promise"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "prom",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ActionCreator"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "export * from './action';\nexport * from './reduce';\n",
+    "static": true,
+    "longname": "/home/erik/source/reducker/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/reduce.js",
+    "content": "\n/**\n * Given a state and an action, merge the action's payload into the state.\n * @param  {State} state\n * @param  {Action} action\n * @return {Reduction}\n */\nexport const merge = (state, action) =>\n  Object.assign(state, action.payload);\n\n/**\n * given a prop, set the action's payload prop at state.prop\n * @param  {String} prop\n * @return {Reduction}\n */\nexport const overwrite = prop => (state, action) =>\n  Object.assign(state, { [prop]: action.payload });\n\n/**\n * Given a prop, set the async start flag to true\n * @param  {String} prop\n * @return {Reduction}\n */\nexport const asyncStart = prop => state =>\n  Object.assign(state, { async: Object.assign((state.async || {}), { [prop]: true }) });\n\n/**\n * Given a prop, set the async start flag to false\n * @param  {String} prop\n * @return {Reduction}\n */\nexport const asyncEnd = prop => state =>\n  Object.assign(state, { async: Object.assign((state.async || {}), { [prop]: false }) });\n\n/**\n * adds an error to the `errors` list of a piece of state\n * @type {Reduction}\n */\nexport const addError = (state, action) =>\n  Object.assign(state, { errors: (state.errors || []).concat(action.error) });\n\n/**\n * resets the `errors` object back to the empty list.\n * @type {Reduction}\n */\nexport const clearErrors = state =>\n  Object.assign(state, { errors: [] });\n\n/**\n * given multiple reductions, combine them into a single reduction\n * @param  {...Reduction} reductions\n * @return {Reduction}\n */\nexport const compose = (...reductions) => (state, action) =>\n  reductions.reduce((prevState, f) => f(prevState, action), state);\n\n/**\n * Create a reducer with an initial state, and a reduction map (from type to\n * reduction)\n * @param  {State} init\n * @param  {ReductionMap} typeObj\n * @return {Reducer}         [description]\n */\nexport const byType = (init, typeObj) => (state = init, action) => {\n  if (typeObj[action.type]) {\n    return typeObj[action.type](state, action);\n  }\n  return state;\n};\n",
+    "static": true,
+    "longname": "/home/erik/source/reducker/src/reduce.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "merge",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~merge",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{merge}",
+    "description": "Given a state and an action, merge the action's payload into the state.",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "State"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Action"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "overwrite",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~overwrite",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{overwrite}",
+    "description": "given a prop, set the action's payload prop at state.prop",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "prop",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "asyncStart",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~asyncStart",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{asyncStart}",
+    "description": "Given a prop, set the async start flag to true",
+    "lineNumber": 24,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "prop",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "asyncEnd",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~asyncEnd",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{asyncEnd}",
+    "description": "Given a prop, set the async start flag to false",
+    "lineNumber": 32,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "prop",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "addError",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~addError",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{addError}",
+    "description": "adds an error to the `errors` list of a piece of state",
+    "lineNumber": 39,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "clearErrors",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~clearErrors",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{clearErrors}",
+    "description": "resets the `errors` object back to the empty list.",
+    "lineNumber": 46,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "compose",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~compose",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{compose}",
+    "description": "given multiple reductions, combine them into a single reduction",
+    "lineNumber": 54,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "...Reduction"
+        ],
+        "spread": true,
+        "optional": false,
+        "name": "reductions",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Reduction"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "byType",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~byType",
+    "access": "public",
+    "export": true,
+    "importPath": "reducker/src/reduce.js",
+    "importStyle": "{byType}",
+    "description": "Create a reducer with an initial state, and a reduction map (from type to\nreduction)",
+    "lineNumber": 64,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "State"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "init",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "ReductionMap"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "typeObj",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Reducer"
+      ],
+      "spread": false,
+      "description": "[description]"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "reducker\n========\n\n[![Build Status](https://travis-ci.org/MrRacoon/reducker.svg?branch=master)](https://travis-ci.org/MrRacoon/reducker)\n\nUtility functions for channeling your inner duck and reducing [redux][redux]\nboilerplate.\n\n\n## Install\n\n```shell\nnpm i --save reducker\n```\n\n## Usage\n\nIf you use [duck-typing][duck-typing] in redux, you'll quickly start to notice\nthat many action creators are just the same trivial boilerplate repeated over\nand over again. We can reduce this boilerplate by encapsulating the common code.\n\n```javascript\nimport { actions } from 'reducker';\n\nconst ADD_TODO = 'APP/TODO/ADD'\nconst addTodo = payload => ({ type: ADD_TODO, payload })\n```\n\nnow becomes:\n\n```javascript\nimport { actions } from 'reducker';\n\nconst ADD_TODO = 'APP/TODO/ADD'\nconst addTodo = action.payload(ADD_TODO);\n```\n\n\n[redux]: http://redux.js.org/\n[duck-typing]: https://hackernoon.com/my-journey-toward-a-maintainable-project-structure-for-react-redux-b05dfd999b5\n",
+    "longname": "/home/erik/source/reducker/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"reducker\",\n  \"version\": \"1.0.0\",\n  \"description\": \"utilities to reduce redux boilerplate\",\n  \"main\": \"dist/index.js\",\n  \"scripts\": {\n    \"test\": \"cross-env NODE_ENV=test nyc mocha\",\n    \"lint\": \"eslint 'src/*.js'\",\n    \"docs\": \"esdoc\",\n    \"build\": \"babel --out-dir=dist src\",\n    \"prepublish\": \"npm run build\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/MrRacoon/reducker.git\"\n  },\n  \"author\": \"erik sutherland <erik.misu@gmail.com>\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/MrRacoon/reducker/issues\"\n  },\n  \"homepage\": \"https://github.com/MrRacoon/reducker#readme\",\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-plugin-istanbul\": \"^4.1.4\",\n    \"babel-plugin-transform-object-assign\": \"^6.22.0\",\n    \"babel-preset-es2015\": \"^6.24.1\",\n    \"chai\": \"^4.1.2\",\n    \"cross-env\": \"^5.0.5\",\n    \"esdoc\": \"^1.0.2\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.6.1\",\n    \"eslint-config-airbnb-base\": \"^12.0.0\",\n    \"eslint-plugin-import\": \"^2.7.0\",\n    \"istanbul\": \"^0.4.5\",\n    \"mocha\": \"^3.5.3\",\n    \"nyc\": \"^11.2.1\",\n    \"redux-mock-store\": \"^1.3.0\",\n    \"sinon\": \"^3.2.1\",\n    \"sinon-chai\": \"^2.13.0\"\n  },\n  \"eslintConfig\": {\n    \"extends\": \"airbnb-base\",\n    \"env\": {\n      \"mocha\": true\n    },\n    \"globals\": {\n      \"sinon\": true,\n      \"promiseStub\": true,\n      \"dispatchStub\": true,\n      \"sandbox\": true\n    }\n  },\n  \"babel\": {\n    \"presets\": [\n      \"es2015\"\n    ],\n    \"plugins\": [\n      \"transform-object-assign\"\n    ],\n    \"env\": {\n      \"test\": {\n        \"plugins\": [\n          \"istanbul\"\n        ]\n      }\n    }\n  },\n  \"nyc\": {\n    \"require\": [\n      \"babel-register\"\n    ],\n    \"sourceMap\": false,\n    \"instrument\": false\n  }\n}\n",
+    "longname": "/home/erik/source/reducker/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
