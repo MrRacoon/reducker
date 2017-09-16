@@ -20,8 +20,6 @@ that many action creators are just the same trivial boilerplate repeated over
 and over again. We can reduce this boilerplate by encapsulating the common code.
 
 ```javascript
-import { actions } from 'reducker';
-
 const ADD_TODO = 'APP/TODO/ADD'
 const addTodo = payload => ({ type: ADD_TODO, payload })
 ```
@@ -29,10 +27,10 @@ const addTodo = payload => ({ type: ADD_TODO, payload })
 now becomes:
 
 ```javascript
-import { actions } from 'reducker';
+import { payload } from 'reducker';
 
 const ADD_TODO = 'APP/TODO/ADD'
-const addTodo = action.payload(ADD_TODO);
+const addTodo = payload(ADD_TODO);
 ```
 
 ## Documentation
